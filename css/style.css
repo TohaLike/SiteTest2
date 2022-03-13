@@ -1,0 +1,206 @@
+body {
+    background-color: #333;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Nexa', sans-serif;                                           
+}
+
+.container {
+    padding-left: 106px;
+    padding-right: 106px;
+}
+
+.main__border {
+    display: flex;
+    justify-content: center;
+}
+
+.image__block {
+    background-image: url(../image/Group\ 7981.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1430px;
+    height: 907px;
+}
+
+.image {
+    margin: 17px;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.header__logo {
+    background-image: url(../image/Subtract.svg);
+    display: block;
+    width: 26px;
+    height: 24px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__section {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__section li {
+    margin-left: 75px;
+}
+
+.nav__section li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    transition: .2s ease;
+}
+
+.nav__section li a:hover {
+    color: #910089;
+}
+
+.nav__border {
+    border-bottom: 2px solid #fff;
+    width: 397px;
+    margin-left: 52px;
+    margin-right: 25px;
+}
+
+.nav__icon {
+    background-image: url(../image/Group\ 7980.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 37px;
+    height: 37px;
+    transition: .2s ease;
+}
+
+.nav__icon:hover {
+    border: 2px solid #910089;
+    width: 33px;
+    height: 33px;
+    border-radius: 3px;
+}
+
+.banner__container {
+    position: absolute;
+    left: 99px;
+    margin-top: 146px;
+}
+
+.banner__title {
+    font-size: 69px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px 4.89173px 40.2421px rgba(255, 255, 255, 0.33);
+    margin: 0;
+}
+
+.banner__title2 {
+    font-size: 69px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #9f7ff3;
+    color: #070328;
+    text-shadow: 0px 4.89173px 60.3504px rgba(218, 204, 255, 0.8);
+    margin: 0;
+    
+}
+
+.banner__suptitle {
+    font-size: 19px;
+    width: 280px;
+}
+
+.banner__button {
+    margin-top: 467px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-image: url(../image/Rectangle\ 2.svg);
+    background-repeat: no-repeat;
+    padding: 22px 50px 22px 42px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    width: 190px;
+    height: 61px;
+    transition: .2s ease;
+}
+
+.button:hover {
+    padding: 22px 50px 22px 42px;
+    background-image: url(../image/Rectangle\ purp.svg);
+}
+
+.button__number {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.button__txt {
+    font-size: 16px;
+    margin: 0;
+}
+
+.button__title {
+    margin-left: 40px;
+}
+
+.footer__photos {
+    position: absolute;
+    margin-top: 620px;
+}
+
+.photo__block__one {
+    background-color: #140639;
+    position: relative;
+    border-radius: 27.143px 27.143px 0px 0px;    
+    width: 300px;
+    height: 270px;
+}
+
+.photo__women {
+    position: absolute;
+    left: 0;
+    background-image: url(../image/woman-wearing-smart-glasses-futuristic-technology-digital-remix\ 1.svg);
+    background-repeat: no-repeat;
+    border-radius: 27.143px 27.143px 0px 0px;
+    display: block;
+    width: 302px;
+    height: 164px;
+    
+}
+
+.footer__button {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    background: radial-gradient(7583.44% 2302.4% at 42.22% 0.47%, #FE11BE 0%, #640A4A 100%);
+    border: 1.61928px solid #FFFFFF;
+    border-radius: 30px;
+    top: 135px;
+    left: 224px;
+}
+
+.photo__txt {
+    position: absolute;
+    top: 200px;
+}
